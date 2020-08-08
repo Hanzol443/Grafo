@@ -1,3 +1,5 @@
+package MyGraph;
+
 /***
  * Node class for the linked list.
  * @author Oscar Méndez

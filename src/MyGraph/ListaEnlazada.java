@@ -1,3 +1,5 @@
+package MyGraph;
+
 /***
  * Linked list class; used for the MyMenu of each user.
  * @author Oscar Méndez
@@ -261,7 +263,7 @@ public class ListaEnlazada <Node>{
      * @param data Node
      */
     public void addCabeza(Node data){
-        Nodo <Node> nuevo = new Nodo<Node>(data);
+        Nodo<Node> nuevo = new Nodo<Node>(data);
         if(isEmpty()){
             this.first = this.last = nuevo;
 

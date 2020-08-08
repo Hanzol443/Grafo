@@ -1,3 +1,5 @@
+package MyGraph;
+
 import java.util.HashMap;
 
 public class Graph {

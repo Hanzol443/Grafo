@@ -1,4 +1,8 @@
+package MyGraph;
+
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
 
 /***
  * Node class for the graph, made mainly for setters and getters.
@@ -40,5 +44,4 @@ public class Node {
         refs.clear();
         System.out.println("Done");
     }
-
 }
